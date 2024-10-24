@@ -1,9 +1,10 @@
-import Image from "next/image";
+"use client"
+import Nav from "./components/nav"
 
-export default function Home() {
-  return (
-    <div className="">
-      Home
-    </div>
-  );
+export default function App() {
+    return (
+        <div>
+            <Nav></Nav>
+        </div>
+    )
 }
